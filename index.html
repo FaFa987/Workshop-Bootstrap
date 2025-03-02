@@ -23,7 +23,7 @@
           <div class="d-flex" id="collapsibleNavbar" class="d-flex">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link px-2 text-white" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Work Experience</a>
@@ -44,36 +44,75 @@
     
       <div class="container-fluid p-5 bg-danger text-white text-center">
         <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing my work and projects</p> 
+        <p class="lead">Showcasing my work and projects</p> 
+      </div>
+      
+
+      <div class="container">
+
+      <div class="row py-5 my-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="fw-normal lh-1">About me</h2>
+          <p class="lead">
+            Hello! I am fatemeh, a web developer with a passion for yours,
+             I have experience in Java and worked on various projects that demonstrate my abilities.
+              Below, you will find a selection of my recent work.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="img/lost.jpg" class="rounded-circle" alt="Lost Portfolio">
+        </div>
       </div>
 
-      <br>
-      <img src="img/lost.jpg" class="rounded-circle" alt="Lost Portfolio">
+    </div>
 
-      <div><h2>Skills</h2></div>
-      <br>
+    
 
       
-<div>
-    
-  </div>
-  
-  <!-- Green -->
-  <div class="progress">
+<div class="p-5 row-cols-md-3">
+  <div><h2>Skills</h2></div>
+    <!-- Green -->
+  <div class="progress mb-3">
     <div class="progress-bar bg-success" style="width:90%">JavaScript</div>
   </div>
-  <br>
-  
   <!-- Turquoise -->
-  <div class="progress">
+  <div class="progress mb-3">
     <div class="progress-bar bg-info" style="width:80%">Python</div>
   </div>
-  <br>
-  
   <!-- Orange -->
   <div class="progress">
      <div class="progress-bar bg-warning" style="width:60%">Java</div>
   </div>
+
+  <br>
+<!-- Green -->
+<div class="progress mb-3">
+  <div class="progress-bar bg-success" style="width:95%">HTML & CSS</div>
+</div>
+<!-- Turquoise -->
+<div class="progress mb-3">
+  <div class="progress-bar bg-info" style="width:85%">Bootstrap</div>
+</div>
+<!-- Orange -->
+<div class="progress">
+   <div class="progress-bar bg-warning" style="width:65%">React</div>
+</div>
+
+<br> 
+<!-- Green -->
+<div class="progress mb-3">
+  <div class="progress-bar bg-success" style="width:90%">Git & Github</div>
+</div>
+<!-- Turquoise -->
+<div class="progress mb-3">
+  <div class="progress-bar bg-info" style="width:80%">Docker</div>
+</div>
+<!-- Orange -->
+<div class="progress">
+   <div class="progress-bar bg-warning" style="width:60%">AWS</div>
+</div>
+  </div>
+  
 
 
 
@@ -84,7 +123,7 @@
 
        <h2><P> project </P></h2> 
   
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-4">
           <div class="col">
             <div class="card" style="width:300px">
                 <img class="card-img-top" src="img/project2.jpg" alt="Card image">
@@ -129,6 +168,7 @@
   
   </main>
 
+  <div class="row-cols-md-2">
   <form action="/action_page.php">
     <div class="mb-3 mt-3">
       <label class="form-label">Name</label>
@@ -144,6 +184,7 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
+</div>
 
 
   <footer>2024 My portfolio. All Rights Reserved.</footer>
