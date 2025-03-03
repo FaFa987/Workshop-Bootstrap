@@ -13,9 +13,14 @@ body {
 
   form {
     color: rgb(26, 25, 25);
+    margin: 20px;
+    padding: 20px;
   }
 
   @media (max-width: 600px) {
+    .container {
+      justify-content: center;
+    }
     
   }
 
